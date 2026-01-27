@@ -53,3 +53,5 @@ We will also use the markdown document content to publish that online with Nuxt.
 - [ ] Scaffold enough to make this AI ready and consistent. 
 - [ ] Upload old projects.
 - [ ] We could create more empty projects/departments and populate them with example material.
+
+
