@@ -6,7 +6,7 @@ I have several unconnected ideas that I want to write down sommewhere about how 
 
 I'm going to jot it down here. 
 
-# Important concepts for Spaces:
+# Important concepts for Spaces/Projects:
 - Leadership roles Rotate every 2 to 4 months.
 - Spaces need to have public meetings.
 - Spaces need to update their documentation once a month.
@@ -38,5 +38,28 @@ Spaces can be "Meetup" groups, that just get together and talk or research about
 
 But that's the magic of spaces, they adapt to their members needs, no member does a task that they don't want to, or that does not produce value or they don't get enought recognition. Everything will be logged forever. Even if we had 1.000 departments with 10.000 members having meetings every day, we could fill this repository with all the text and summaries we want, it would all still fit inside a pendrive. 
 
-Directors, co-Directors and Managers. Still work like they always did, the director creates the strategy, administration and networking for the spacce, co-director helps with the content and tracking of the Space, so assisting the Director, the Manager divides tasks and tracks members. In short. Everyone is working to create the best space were everyone in the team wants to do, doing what they really want and making it public.  
+Directors, co-Directors and Managers. Still work like they always did, the director creates the strategy, administration and networking for the spacce, co-director helps with the content and tracking of the Space, so assisting the Director, the Manager divides tasks and tracks members. In short. Everyone is working to create the best space were everyone in the team wants to do, doing what they really want and making it public. 
+
+If the SPACE is growing, the PROJECT team can create it's own SPACE, with the original DIRECTOR listed as co-Founder of the new space in it's README. 
+
+For spaces, in meeting minutes only list director and whoever is taking note as assistant. Put Director Name, Assistant Name, and 5 members. You are not forced to mention all members of the space, you are only required to have the Director and Assistant roles. 
+
+Now that this repository works like this, we could talk and interact with it in natural language, like chatting with CHATGPT, but about the organization, and being able to make changes. 
+
+
+We are taking some concepts from the original whitepaper, streamlining a lot of it.
+
+
+
+SPACE/PROJECT Directory Structure
+
+Required Files:
+materials/
+README.md
+MEMBERS.md
+PROJECT.md
+
+Optional:
+
+
 
