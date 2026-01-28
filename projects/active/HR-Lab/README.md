@@ -1,8 +1,3 @@
----
-title: HR Lab
-description: HR Lab project space.
-author: @frankinkua
----
 # HR LAB PROJECT README
 
 ## MISSION
