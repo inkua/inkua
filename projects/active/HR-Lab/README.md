@@ -1,3 +1,8 @@
+---
+title: HR Lab
+description: HR Lab project space.
+author: @frankinkua
+---
 # HR LAB PROJECT README
 
 ## MISSION
@@ -27,4 +32,4 @@ Leadership roles are rotatory. Everyone needs to take strategic decisions (Direc
 
 Note: Agreements and Roles and maybe a more specific task, objectives and member followup.
 
-Remember meetings and changes go in LOG. If something is worth mentioning, can be logged in a NEWS document. But this needs checking. 
+Remember meetings and changes go in LOG. If something is worth mentioning, can be logged in a NEWS document. But this needs checking.
