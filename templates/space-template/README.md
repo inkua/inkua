@@ -1,7 +1,7 @@
 ---
 title: Space Template
 description: Space template file, with example metadata. 
-author: @frankinkua
+author: frankinkua
 ---
 # SPACE TEMPLATE
 
