@@ -59,3 +59,6 @@ We will also use the markdown document content to publish that online with Nuxt.
 - [ ] We could create more empty projects/departments and populate them with example material.
 
 
+# IMAGE TEST
+
+![Example of collaboration with Google AI "Jules"](files/collaboration-with-ai.png)
