@@ -54,12 +54,17 @@ We are taking some concepts from the original whitepaper, streamlining a lot of 
 SPACE/PROJECT Directory Structure
 
 Required Files:
-materials/
-README.md
-MEMBERS.md
-PROJECT.md
+- README.md: Space description and status. Must include meeting and SETUP and Mission statement.
+- LOG.md: List all changes and updates, minutes, new members, structure or role change. Compact and "machine ready".
+- ROLES.md: Roles, org chart, rotations and responsibilities & tasks description.
+- PROJECT.md: Document for specific tasks and if working also on a project, have the SPACE and Project tracking in the same place.
+- ORGCHART.md: Describes the position and roles of this space in the ORGANIZATION.
+- SETUP.md: Describes what the SPACE needs to operate, and a standard SETUP template and tools.
+- MEMBERS.md: Lists current members and roles.
+- MATERIALS/: Pictures, videos or whatever we can share on social media or to document the humans that make this SPACE.
 
 Optional:
+- TUTORIALS/: For any department specific knowledge and tasks.
 
 
 
