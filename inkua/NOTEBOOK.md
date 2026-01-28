@@ -1,6 +1,6 @@
 # NOTEBOOK - INKUA
 
-Here you can write down unorganized data.
+Here you can write down unorganized working data. 
 
 I have several unconnected ideas that I want to write down sommewhere about how the organization work.
 

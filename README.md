@@ -19,6 +19,10 @@ You can also keep participating without engaging with the repository, but one of
 
 By collaborating, every character you type will be stored forever publicly in our distributed Repository. 
 
+Since the idea is to migrate the organization to this GIT repository. We have the advantage that all proposals, comments, and updates are all made public and shared with people following this repository. 
+
+Everything - our Newsletter, Blog, Website, Projects, Roles, Discussions, everything goes here, and the documentation here is the most current one.
+
 ## How does it work?
 Each directory has a README.md file that explains what the folder and files there contain, to work as a directroy for Humans and AI interacting with the organization. TODO.md files will be common. Meeting times and channels, projects, meembers and so on, should be inside a folder or "Space". 
 
@@ -38,11 +42,11 @@ We need to keep the project, roles, reports, tutorials, readmes and templates up
 - Stay in the Loop (Read News and participate in Workshops.)
 
 ## Achievements:
-- Run simulations of this virtual organization with AI agents.  
-
+- Run simulations of this virtual organization with AI agents collaborating with humans.  
+- 
 
 ## Development Roadmap
-We can integrate a simple python script with this repository that would load a compatible and small cpu based AI to answer questions about the organiation and repository, with a new version being able  to update and partiicpate in the organization just by chatting with our Repository.
+We can integrate a simple python script with this repository that would load a compatible and small cpu based AI to answer questions about the organiation and repository, with a new version being able  to update and participate in the organization just by chatting with our Repository.
 
 We will also use the markdown document content to publish that online with Nuxt.js and update the website. Most likely in a different repository to not mix administration and projects and main website/app coding. 
 
