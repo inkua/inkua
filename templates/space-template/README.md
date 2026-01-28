@@ -1,8 +1,3 @@
----
-title: Space Template
-description: Space template file, with example metadata. 
-author: frankinkua
----
 # SPACE TEMPLATE
 
 This is the basic file and folder structure all projects, departments, areas or teams should have. It's what we call an "InkuA Space"
