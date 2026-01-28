@@ -1,7 +1,7 @@
 ---
 title: HR Lab
 description: HR Lab project space.
-author: @frankinkua
+author: \@frankinkua
 ---
 # HR LAB PROJECT README
 
