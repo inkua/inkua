@@ -1,87 +1,63 @@
-# Onboarding Tutorial: Collaborating on InkuA Repository
+# Onboarding Tutorial: How to Contribute
 
-Welcome to the InkuA Repository! This tutorial will guide you through the process of collaborating with us. Whether you are adding a new project, updating documentation, or fixing a bug, this guide will help you get started.
+Welcome! This guide will show you how to update files, add documents, or fix mistakes in the InkuA Repository.
 
-## Prerequisites
+**You do not need to be a programmer or know "code" to contribute.** If you can edit a document online, you can do this!
 
-Before you begin, make sure you have:
-1.  **A GitHub Account**: If you don't have one, [create one here](https://github.com/join).
-
-That's it! You can contribute directly from your web browser.
+## What you need
+1.  **A GitHub Account**: That's it. [Create one here](https://github.com/join) if you don't have one.
 
 ---
 
-## Method 1: Quickstart (Web Interface)
-*Recommended for non-technical contributors or quick edits.*
+## How to Edit or Add Files (The Easy Way)
 
-You don't need to install anything to contribute. You can do everything through the GitHub website.
+You can do everything directly in your web browser, just like using Google Docs or Word Online.
 
-### Step 1: Find the File
-Navigate through the folders in the repository to find the file you want to edit.
-*   **[`templates/space-template/`](../../templates/space-template/)**: Structure for projects/spaces.
-*   **[`tutorials/`](../)**: Guides and tutorials.
+### 1. Find the file or folder
+Click through the folders to find the document you want to edit.
+*   **[`templates/space-template/`](../../templates/space-template/)**: If you are starting a new project or department, look here first.
+*   **[`tutorials/`](../)**: Where guides like this one live.
 
-### Step 2: Edit the File
-1.  Click on the file name to open it.
-2.  Click the **Pencil icon** (Edit this file) in the top right corner of the file view.
-3.  Make your changes in the text editor.
-    *   **File Naming**: If creating a new file, follow our naming conventions: lowercase and dashes (e.g., `my-new-file.md`).
+### 2. Make your changes
+*   **To Edit**: Click the file to open it, then look for the **Pencil icon** (✏️) in the top right. Click it to start typing.
+*   **To Create a New File**: Go to the folder where you want the file, then click **"Add file"** > **"Create new file"** in the top right.
 
-### Step 3: Propose Changes
-1.  Scroll down to the **"Commit changes"** box.
-2.  Write a short title explaining your change (e.g., "Update meeting notes").
-3.  Add an optional extended description.
-4.  **Important**: Select **"Create a new branch for this commit and start a pull request"**.
-5.  Click **"Propose changes"**.
+### 3. Save your work ("Commit changes")
+When you are done typing:
+1.  Scroll down to the box that says **"Commit changes"**.
+2.  In the first box, write a short title describing what you did (e.g., "Updated the meeting notes").
+3.  **Crucial Step**: Ensure the option **"Create a new branch for this commit and start a pull request"** is selected.
+4.  Click the green **"Propose changes"** button.
 
-### Step 4: Create Pull Request
-1.  You will be taken to a "Open a pull request" page.
-2.  Review your title and description.
-3.  Click **"Create pull request"**.
-4.  A team member will review your changes and merge them!
+### 4. Send your changes for review ("Pull Request")
+You will be taken to a new screen titled "Open a pull request".
+1.  This is a request to merge your new version into the main project.
+2.  Click the green **"Create pull request"** button.
+3.  Done! A team member will check your work and approve it.
 
 ---
 
-## Method 2: Advanced (Command Line / Git)
-*Recommended for developers and technical contributors.*
+## Advanced: For Developers
+*If you are comfortable with Git and command line, read below. Otherwise, you can ignore this section.*
 
-If you prefer working locally or need to make complex changes, follow these steps.
+<details>
+<summary><strong>Click to expand Git Instructions</strong></summary>
 
 ### Prerequisites
-*   **Git Installed**: You'll need Git installed on your local machine.
+*   Git Installed on your machine.
 
-### Step 1: Fork and Clone
-1.  **Fork** the repository.
-2.  **Clone** to your machine:
-    ```bash
-    git clone https://github.com/YOUR-USERNAME/inkua-repo-name.git
-    cd inkua-repo-name
-    ```
+### Workflow
+1.  **Fork** the repo.
+2.  **Clone** your fork: `git clone <url>`
+3.  **Branch**: `git checkout -b feature/my-feature`
+4.  **Commit**: `git commit -m "My changes"`
+5.  **Push**: `git push origin feature/my-feature`
+6.  **PR**: Open a Pull Request on GitHub.
 
-### Step 2: Create a Branch
-```bash
-git checkout -b feature/your-feature-name
-```
-
-### Step 3: Make Changes & Push
-1.  Edit files locally.
-2.  Stage and commit:
-    ```bash
-    git add .
-    git commit -m "Add new onboarding tutorial"
-    ```
-3.  Push to your fork:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-### Step 4: Create Pull Request
-Go to the original repository on GitHub and click **"Compare & pull request"**.
+</details>
 
 ---
 
 ## Need Help?
 
-Check the [`tutorials/`](../) folder for more specific guides or reach out to the team via the communication channels listed in the main [`README.md`](../../README.md).
-
-Happy Collaborating!
+If you get stuck, just ask in our communication channels (see [`README.md`](../../README.md)). We are happy to help you get started!
