@@ -22,6 +22,8 @@ Click through the folders to find the document you want to edit.
 *   **To Edit**: Click the file to open it, then look for the **Pencil icon** (✏️) in the top right. Click it to start typing.
 *   **To Create a New File**: Go to the folder where you want the file, then click **"Add file"** > **"Create new file"** in the top right.
 
+> **Tip:** We write in **Markdown**. If you want to practice or preview your text before pasting it here, try [Dillinger.io](https://dillinger.io/). It's a great easy-to-use editor.
+
 ### 3. Save your work ("Commit changes")
 When you are done typing:
 1.  Scroll down to the box that says **"Commit changes"**.
