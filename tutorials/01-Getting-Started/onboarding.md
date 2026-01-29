@@ -6,74 +6,79 @@ Welcome to the InkuA Repository! This tutorial will guide you through the proces
 
 Before you begin, make sure you have:
 1.  **A GitHub Account**: If you don't have one, [create one here](https://github.com/join).
-2.  **Git Installed**: You'll need Git installed on your local machine to contribute.
 
-## Step-by-Step Guide
+That's it! You can contribute directly from your web browser.
 
-### Step 1: Fork and Clone the Repository
+---
 
-1.  **Fork** the repository by clicking the "Fork" button at the top right of the repository page. This creates a copy of the repository in your own GitHub account.
-2.  **Clone** your forked repository to your local machine:
+## Method 1: Quickstart (Web Interface)
+*Recommended for non-technical contributors or quick edits.*
+
+You don't need to install anything to contribute. You can do everything through the GitHub website.
+
+### Step 1: Find the File
+Navigate through the folders in the repository to find the file you want to edit.
+*   **[`templates/space-template/`](../../templates/space-template/)**: Structure for projects/spaces.
+*   **[`tutorials/`](../)**: Guides and tutorials.
+
+### Step 2: Edit the File
+1.  Click on the file name to open it.
+2.  Click the **Pencil icon** (Edit this file) in the top right corner of the file view.
+3.  Make your changes in the text editor.
+    *   **File Naming**: If creating a new file, follow our naming conventions: lowercase and dashes (e.g., `my-new-file.md`).
+
+### Step 3: Propose Changes
+1.  Scroll down to the **"Commit changes"** box.
+2.  Write a short title explaining your change (e.g., "Update meeting notes").
+3.  Add an optional extended description.
+4.  **Important**: Select **"Create a new branch for this commit and start a pull request"**.
+5.  Click **"Propose changes"**.
+
+### Step 4: Create Pull Request
+1.  You will be taken to a "Open a pull request" page.
+2.  Review your title and description.
+3.  Click **"Create pull request"**.
+4.  A team member will review your changes and merge them!
+
+---
+
+## Method 2: Advanced (Command Line / Git)
+*Recommended for developers and technical contributors.*
+
+If you prefer working locally or need to make complex changes, follow these steps.
+
+### Prerequisites
+*   **Git Installed**: You'll need Git installed on your local machine.
+
+### Step 1: Fork and Clone
+1.  **Fork** the repository.
+2.  **Clone** to your machine:
     ```bash
     git clone https://github.com/YOUR-USERNAME/inkua-repo-name.git
     cd inkua-repo-name
     ```
-    *(Replace `YOUR-USERNAME` and `inkua-repo-name` with the actual values)*
 
-### Step 2: Understand the Structure
-
-The repository follows a specific structure. Familiarize yourself with these key areas:
-*   **[`templates/space-template/`](../../templates/space-template/)**: All projects, departments, or spaces should follow the structure defined here. Read [`templates/space-template/README.md`](../../templates/space-template/README.md) to understand the required files (`LOG.md`, `ROLES.md`, `PROJECT.md`, etc.).
-*   **[`tutorials/`](../)**: Contains guides and tutorials like this one.
-*   **[`README.md`](../../README.md)**: The main entry point for the repository.
-
-### Step 3: Create a Branch
-
-Never work directly on the `main` or `master` branch. Always create a new branch for your changes:
-
+### Step 2: Create a Branch
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-*   Use `feature/` for new content or features.
-*   Use `fix/` for bug fixes.
-*   Use `docs/` for documentation updates.
-
-### Step 4: Make Your Changes
-
-Now, you can edit files or add new ones.
-
-*   **File Naming**: Please follow our naming conventions described in [`tutorials/02-Collaborating/naming-convention.md`](../02-Collaborating/naming-convention.md). Use lowercase and dashes (e.g., `my-new-file.md`), not spaces or CamelCase.
-*   **Markdown**: We use Markdown for documentation. If you are new to Markdown, check out [`tutorials/01-Getting-Started/markdown.md`](./markdown.md).
-*   **Space Structure**: If creating a new space or project, ensure you copy the `templates/space-template` content and fill it out.
-
-### Step 5: Commit and Push
-
-Once you are happy with your changes:
-
-1.  **Stage** your changes:
+### Step 3: Make Changes & Push
+1.  Edit files locally.
+2.  Stage and commit:
     ```bash
     git add .
-    ```
-2.  **Commit** your changes with a descriptive message:
-    ```bash
     git commit -m "Add new onboarding tutorial"
     ```
-3.  **Push** the changes to your fork:
+3.  Push to your fork:
     ```bash
     git push origin feature/your-feature-name
     ```
 
-### Step 6: Create a Pull Request (PR)
+### Step 4: Create Pull Request
+Go to the original repository on GitHub and click **"Compare & pull request"**.
 
-1.  Go to the original InkuA repository on GitHub.
-2.  You should see a prompt to "Compare & pull request". Click it.
-3.  Fill in the title and description of your PR. Explain what you changed and why.
-4.  Submit the Pull Request.
-
-### Step 7: Review and Merge
-
-A team member (or potentially an AI agent) will review your PR. They might request changes or ask questions. Once everything is approved, your changes will be merged into the main repository.
+---
 
 ## Need Help?
 
