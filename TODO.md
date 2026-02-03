@@ -6,5 +6,5 @@ The usual todo files, can be inside the README.
 - [x] Check Structure.
 - [ ] Onboard some old members.
 - [ ] Onboard all new members. 
-- [ ] Load old projects.
+- [x] Load old projects.
 - [ ] Load current departments and directors. 

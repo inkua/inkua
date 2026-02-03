@@ -54,9 +54,9 @@ We will also use the markdown document content to publish that online with Nuxt.
 # TODO
 - [x] Space/Department Template.
 - [x] Developing projects\active\HR-Lab\README.md
-- [ ] Scaffold enough to make this AI ready and consistent. 
-- [ ] Upload old projects.
-- [ ] We could create more empty projects/departments and populate them with example material.
+- [x] Scaffold enough to make this AI ready and consistent.
+- [x] Upload old projects.
+- [x] We could create more empty projects/departments and populate them with example material.
 
 
 # IMAGE TEST
