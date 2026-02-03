@@ -4,7 +4,9 @@
 Create a sustainable space for investigation related to and development of HR professionals.
 
 START: 27.01.2026
+
 END: 01.01.2027
+
 STATUS: SETUP
 
 ## MEETINGS
