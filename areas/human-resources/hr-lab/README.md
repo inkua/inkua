@@ -5,8 +5,8 @@ Create a sustainable space for investigation related to and development of HR pr
 
 ## 📊 Status
 - **Current Status:** SETUP
-- **Start Date:** 2026-01-27
-- **End Date:** 2027-01-01
+- **Start Date:** 27.01.2026
+- **End Date:** 01.01.2027
 
 ## 📅 Meetings
 - **Title:** Weekly Sync
@@ -29,6 +29,7 @@ Create a sustainable space for investigation related to and development of HR pr
 Leadership roles are rotatory. Everyone needs to take strategic decisions (Director/Coordinator), Manage content and members (Assistant Director/Coordinator), and manage activities and members (Managers).
 
 ## 🔗 Resources
-- **Materials:** [/materials/](../../../materials/)
+- **Global Documentation:** [../../../README.md](../../../README.md)
+- **Materials:** [../../../materials/](../../../materials/)
 - **Outputs:** [./REPORTS/](./REPORTS/)
 - **Communication:** [./NEWS/](./NEWS/)

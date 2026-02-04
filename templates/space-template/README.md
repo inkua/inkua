@@ -5,8 +5,8 @@
 
 ## 📊 Status
 - **Current Status:** SETUP / ACTIVE / PAUSED
-- **Start Date:** [YYYY-MM-DD]
-- **End Date:** [YYYY-MM-DD] (Default: 1 year from start)
+- **Start Date:** [DD.MM.YYYY]
+- **End Date:** [DD.MM.YYYY] (Default: 1 year from start)
 
 ## 📅 Meetings
 - **Schedule:** [e.g., Weekly on Wednesdays at 18:00 UTC]
@@ -25,6 +25,7 @@
   - [Name] ([Role/Interests])
 
 ## 🔗 Resources
+- **Global Documentation:** [../../../README.md](../../../README.md)
 - **Google Drive:** [Link]
 - **Outputs:** [./REPORTS/](./REPORTS/)
 - **Communication:** [./NEWS/](./NEWS/)

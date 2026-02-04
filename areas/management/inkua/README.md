@@ -7,7 +7,7 @@ To maintain the core structure of InkuA and provide a platform for open particip
 
 ## 📊 Status
 - **Current Status:** ACTIVE
-- **Start Date:** 2026-01-27
+- **Start Date:** 27.01.2026
 
 ## 📅 Meetings
 - **Schedule:** Open Forum - Every Friday at 19:00 UTC
@@ -28,5 +28,6 @@ To maintain the core structure of InkuA and provide a platform for open particip
 
 ## 🔗 Resources
 - **Global Documentation:** [../../../README.md](../../../README.md)
+- **Materials:** [../../../materials/](../../../materials/)
 - **Outputs:** [./REPORTS/](./REPORTS/)
 - **Communication:** [./NEWS/](./NEWS/)

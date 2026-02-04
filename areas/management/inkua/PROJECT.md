@@ -2,12 +2,15 @@
 
 This file tracks the main active project of this space (Max 1 active project recommended).
 
-## 🚀 Project Name
-[Describe the project]
+## 🚀 InkuA Refactoring
+Restructuring the organization into the new Space/Area model.
 
 ## 🛣️ Roadmap
-- [ ] Phase 1
-- [ ] Phase 2
+- [x] Phase 1: Define structure and templates.
+- [ ] Phase 2: Migrate all existing projects and members.
+- [ ] Phase 3: Launch new news update workflow.
 
 ## 📦 Deliverables
-- [List outputs expected]
+- New Repository Structure
+- Master AI Instructions
+- Area/Space Templates

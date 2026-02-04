@@ -4,7 +4,7 @@ Welcome, Agent. You are interacting with the InkuA repository, a hybrid organiza
 
 ## 🎯 Core Directives
 1. **Context Awareness:** Before making changes, always read the local `README.md` and `AI.md` of the folder you are in.
-2. **Transparency:** Log every significant action in the relevant `LOG.md` file using the format: `YYYY-MM-DD: [Action Description]`.
+2. **Transparency:** Log every significant action in the relevant `LOG.md` file using the format: `DD.MM.YYYY: [Action Description]`.
 3. **Persistence:** Use the `AI.md` file in each folder as a scratchpad for your current work, temporary notes, or messages to future agents in case you crash or lose context.
 4. **Human-Centric:** Remember that this organization serves humans. Your changes should make it easier for humans to understand what is happening.
 5. **Horizontal Structure:** InkuA promotes a horizontal hierarchy. Suggest connections between spaces (e.g., IT and HR) if you notice overlapping objectives.

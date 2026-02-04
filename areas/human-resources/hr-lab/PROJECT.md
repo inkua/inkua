@@ -1,5 +1,14 @@
-# PROJECT FILE
-This file will be used if the space has a project to track it's progress.
+# Project Tracking
 
-It is recommended not to have more than 1 project at a time for good tracking and publishing. 
+This file tracks the main active project of this space (Max 1 active project recommended).
 
+## 🚀 HR-Lab Research
+Investigation related to and development of HR professionals.
+
+## 🛣️ Roadmap
+- [ ] Phase 1: Setup and Onboarding
+- [ ] Phase 2: Research
+
+## 📦 Deliverables
+- Onboarding Material
+- Research Report

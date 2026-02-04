@@ -1,4 +1,6 @@
-# LOG
-The log file includes meetings, decisions and organizational changes.
+# LOG & Meeting Minutes
 
-- 27.01.2026 - Project Setup initiated.
+Record all significant changes, meetings, and updates here.
+Format: `DD.MM.YYYY: Description`.
+
+- 27.01.2026: HR-Lab space initialized.
