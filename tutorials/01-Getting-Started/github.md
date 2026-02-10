@@ -1,4 +1,4 @@
-# Github Tuutorial
+# Github Tutorial
 
 # Index
 - How to create an account.
