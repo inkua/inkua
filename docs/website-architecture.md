@@ -40,7 +40,12 @@ website/
 
 - **Reflex (Python)** — consistent with Frank's `cv` site.
 - Run locally with `reflex run`; build static with `reflex export --frontend-only`.
-- Host behind a Cloudflare Tunnel (like `frank-escudero.com`) or on GitHub Pages.
+- **Hosting (decided 2026-10-07): Cloudflare Tunnel.** Same pattern as
+  `frank-escudero.com`: the app binds to `127.0.0.1` and is reached only through
+  the tunnel — no open public port.
+- Served from the **home datacenter**, which is currently **off**. It can be
+  turned on when the site needs to go live, and **more domains can be created per
+  project** from there.
 
 ## Rules
 
