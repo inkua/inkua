@@ -1,0 +1,30 @@
+name: Backup
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"   # Sundays 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create a full-history git bundle
+        run: git bundle create repo.bundle --all
+
+      - name: Attach the bundle to a rolling release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view backup-latest >/dev/null 2>&1 \
+            || gh release create backup-latest \
+                 --title "Repository backup" \
+                 --notes "Rolling full-history git bundle, updated weekly."
+          gh release upload backup-latest repo.bundle --clobber

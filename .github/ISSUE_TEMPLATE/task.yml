@@ -1,0 +1,30 @@
+name: Task / Proposal
+description: A unit of work or a new project proposal.
+title: "[task] <short description>"
+labels: ["status:queued"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - management
+        - human-resources
+        - information-technology
+        - website
+        - unassigned
+    validations:
+      required: true
+  - type: textarea
+    id: ask
+    attributes:
+      label: Ask
+      description: Exactly what should be done.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done criteria
+    validations:
+      required: true

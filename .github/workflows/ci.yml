@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Byte-compile the website
+        run: python -m compileall -q website
+
+      - name: Load the site content (no deps needed)
+        run: |
+          cd website
+          python -c "import sys; sys.path.insert(0, '.'); from inkua_site import content; p=content.load_projects(); n=content.load_news(); a=content.load_about(); print(f'projects={len(p)} news={len(n)} about={len(a)}')"

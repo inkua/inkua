@@ -1,0 +1,13 @@
+# Reflex / Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.web/
+web/
+states/
+*.db
+*.sqlite
+
+# Node (Reflex frontend)
+node_modules/

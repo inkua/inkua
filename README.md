@@ -38,6 +38,20 @@ This is not a code repository; it is an organizational repository.
 ## 🌟 Get Started
 1. Read our [tutorials/](./tutorials/) to learn how to collaborate.
 2. Check the [areas/](./areas/) to see what teams are currently active.
+
+## 🌐 Website
+
+The public website lives in [`website/`](./website/) and is a **view over this
+repository**: it renders `areas/**/PROJECT.md`, `about/*.md` and `news/**/*.md`.
+Edit a markdown file and the site follows — no CMS, no database.
+
+See [`docs/website-architecture.md`](./docs/website-architecture.md) for the
+rationale, and [`website/README.md`](./website/README.md) to run it.
+
+## 📁 Other folders
+- `/about/`: institutional core — mission, history, governance (from the former `InkuA-Organization-Docs`).
+- `/projects/`: `active/`, `proposals/`, `completed/` — project archive (from the former `InkuA-Organization-Docs`).
+- `/docs/`: architecture and decisions.
 3. Create your member profile in [members/](./members/).
 
 ---
