@@ -62,3 +62,18 @@ website/
 
 `InkuA-Organization-Docs` was folded in: its `projects/` → `projects/`, its
 institutional core → `about/`, plus its brand guide, tutorials and templates.
+
+## Quick chatbot — token-free explainer (idea, Frank 2026-10-09)
+
+A small chatbot on the site that **explains the token-free concepts**: why the
+swarm prefers deterministic software, cron, GitHub Actions, local models and free
+tiers over paid LLM calls — "spend intelligence only where it changes the
+result", "productive silence beats token-consuming slop".
+
+- **Token-free by design.** The bot itself runs without paid tokens: rule-based,
+  or retrieval over this repo's own markdown, or a local model on the GX10
+  cluster. The demo *is* the concept.
+- **Content source.** `about/` and `docs/`, plus a short FAQ ("why doesn't this
+  cost money?"). Link, don't duplicate.
+- **Showcase.** It doubles as a live demo of what the swarm can build.
+- **Scope.** Quick: one widget/page, no accounts, no database, no paid API.
